@@ -52,6 +52,7 @@ namespace POO.Parcial2023.Unitest
         {
             PiramideCuadrada piram = new PiramideCuadrada(5, 10);
             var msj = "Devolucion imposible de realizar.";
+
             Assert.AreNotEqual(msj, piram.GetDatos());
         }
 
